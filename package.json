@@ -1,0 +1,27 @@
+{
+  "name": "chartjs",
+  "version": "1.0.0",
+  "description": "Probando la libreria chart",
+  "main": "main.js",
+  "scripts": {
+    "build": "browserify browser/main.js -o assets/js/bundle.js",
+    "start": "npm run build && http-server ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebas095/Chart.js.git"
+  },
+  "author": "Sebastian Duque Restrepo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebas095/Chart.js/issues"
+  },
+  "homepage": "https://github.com/sebas095/Chart.js#readme",
+  "dependencies": {
+    "chart.js": "^2.1.6"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.1"
+  }
+}
